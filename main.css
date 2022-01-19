@@ -1,31 +1,68 @@
-label:hover, a, a:hover, a:focus{
-	color: #0078e7;
-	text-decoration: none;
+@font-face {
+  font-family: "Almarai";
+  src: url(Almarai-Regular.ttf);
 }
-body, h1{
-	color: #222222;
+
+label:hover,
+a,
+a:hover,
+a:focus {
+  color: #f69322;
+  text-decoration: none;
 }
-h1, h4{
-	text-align: center;
+body,
+h1 {
+  color: #222222;
+  font-family: "Almarai", sans-serif;
 }
-#about{
-	text-align: justify;
+h1,
+h4 {
+  text-align: center;
 }
-img{
-	float:right;
-	margin: auto;
-	display:block;
-	height: auto;
-	width: 25em;
+#about {
+  text-align: justify;
 }
-#testbtn{
-	display: block;
-	margin: auto;
-	width: 300px;
+img {
+  float: right;
+  margin: auto;
+  display: block;
+  height: auto;
+  width: 25em;
 }
-#aimg{
-	width: 37em;
+#testbtn {
+  display: block;
+  margin: auto;
+  width: 300px;
 }
-#simg, #cimg{
-	width: 27em;
+#aimg {
+  width: 37em;
+}
+#simg,
+#cimg {
+  width: 27em;
+}
+#mainForm > div > div > label {
+  font-family: "Almarai";
+}
+
+#mainForm > button.pure-button.pure-button-primary {
+  font-family: "Almarai";
+}
+
+#mainForm > button {
+  font-family: "Almarai";
+}
+
+body > div > div.pure-u-18-24 > h4 {
+  font-family: "Almarai";
+  font-size: 24px;
+}
+
+#testbtn {
+  font-family: "Almarai";
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  filter: grayscale(1);
 }

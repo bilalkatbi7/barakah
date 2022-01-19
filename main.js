@@ -1,3 +1,4 @@
+
 function check(){
 	var r = confirm("هل أنت متأكد من أنك قد أكملت الاختبار؟");
 	if(r==true){

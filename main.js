@@ -38,7 +38,7 @@ function check(){
 
 	alert("ملف تعريف الاهتمام الخاص بك هو: "+sortable[5][0]+" "+sortable[4][0]+" "
 		+"\n\n"+"مجموعة(نتيجة): \n\n"+
-		categs[sortable[5][0]]+"("+sortable[5][1]+"),\n"+categs[sortable[4][0]]+"("+sortable[4][1]+")\n"+"\n\n");
+		categs[sortable[5][0]]+"("+sortable[5][1]+"),\n"+categs[sortable[4][0]]+"("+sortable[4][1]+")\n"+categs[sortable[3][0]]+"("+sortable[3][1]+"),\n"+categs[sortable[2][0]]+"("+sortable[2][1]+"),\n"+categs[sortable[1][0]]+"("+sortable[1][1]+"),\n"+categs[sortable[0][0]]+"("+sortable[0][1]+"),\n"+"\n\n");
 
 
 	}else{
